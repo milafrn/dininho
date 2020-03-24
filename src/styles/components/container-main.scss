@@ -2,15 +2,8 @@
   position: relative;
   background: $bg-color-gradient;
   width: 100%;
-  height: 100%;
-  > .text-help {
-    font-family: $font-primary;
-    color: #fff;
-    text-align: center;
-    > .text {
-      font-family: $font-secondary;
-      margin-top: 20px;
-      padding: 0 20%;
-    }
-  }
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

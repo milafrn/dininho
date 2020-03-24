@@ -1,0 +1,13 @@
+.text-help {
+  font-family: $font-primary;
+  color: #fff;
+  text-align: center;
+  padding: 0 5%;
+  > .title {
+    font-size: 28px;
+  }
+  > .text {
+    font-family: $font-secondary;
+    margin-top: 20px;
+  }
+}

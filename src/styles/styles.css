@@ -136,17 +136,48 @@ table {
   position: relative;
   background: linear-gradient(180.22deg, #7e5002 20.16%, #e69405 36.19%, #fad121 98.57%);
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.container-main > .text-help {
+
+.text-help {
   font-family: "Bungee", cursive;
   color: #fff;
   text-align: center;
+  padding: 0 5%;
 }
-.container-main > .text-help > .text {
+.text-help > .title {
+  font-size: 28px;
+}
+.text-help > .text {
   font-family: "Nunito", sans-serif;
   margin-top: 20px;
-  padding: 0 20%;
+}
+
+.wrapper-eggs {
+  display: flex;
+  width: 80%;
+}
+.wrapper-eggs::after {
+  content: "";
+  width: 50%;
+  margin-left: 10px;
+  border-bottom: 3px solid #fff;
+  border-radius: 2px;
+  transform: translateY(-25%);
+}
+.wrapper-eggs::before {
+  content: "";
+  width: 50%;
+  margin-right: 10px;
+  border-bottom: 3px solid #fff;
+  border-radius: 2px;
+  transform: translateY(-25%);
+}
+.wrapper-eggs > .eggs {
+  margin-top: 30px;
 }
 
 /*# sourceMappingURL=styles.css.map */

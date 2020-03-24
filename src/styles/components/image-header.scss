@@ -1,0 +1,12 @@
+.image-header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  > .logo {
+    width: 50%;
+    position: absolute;
+    top: 12%;
+    left: 28%;
+  }
+}

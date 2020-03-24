@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bungee&display=swap");
 /* http://meyerweb.com/eric/tools/css/reset/ */
 /* v1.0 | 20080212 */
 html,
@@ -69,6 +71,7 @@ td {
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
+  box-sizing: border-box;
 }
 
 body {
@@ -117,13 +120,33 @@ table {
   display: flex;
   justify-content: center;
   width: 100%;
-  position: absolute;
+  position: relative;
+  overflow: hidden;
+}
+.image-header > .logo-background {
+  width: 100%;
 }
 .image-header > .logo {
   width: 50%;
   position: absolute;
-  top: 12%;
-  left: 28%;
+  top: 10%;
+}
+
+.container-main {
+  position: relative;
+  background: linear-gradient(180.22deg, #7e5002 20.16%, #e69405 36.19%, #fad121 98.57%);
+  width: 100%;
+  height: 100%;
+}
+.container-main > .text-help {
+  font-family: "Bungee", cursive;
+  color: #fff;
+  text-align: center;
+}
+.container-main > .text-help > .text {
+  font-family: "Nunito", sans-serif;
+  margin-top: 20px;
+  padding: 0 20%;
 }
 
 /*# sourceMappingURL=styles.css.map */

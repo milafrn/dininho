@@ -2,11 +2,14 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  position: absolute;
+  position: relative;
+  overflow: hidden;
+  > .logo-background {
+    width: 100%;
+  }
   > .logo {
     width: 50%;
     position: absolute;
-    top: 12%;
-    left: 28%;
+    top: 10%;
   }
 }

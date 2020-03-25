@@ -18,6 +18,9 @@
     color: $color-tertiary;
     > .item {
       padding: 5px 0;
+      &.-modify {
+        padding: 0;
+      }
     }
   }
 }

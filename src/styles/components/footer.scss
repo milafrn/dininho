@@ -1,0 +1,21 @@
+.footer {
+  font-family: $font-secondary;
+  font-size: 14px;
+  font-weight: bold;
+  color: $color-quaternary;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  > .copyright {
+    text-align: center;
+  }
+  > .wrapper-network {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    padding: 10px;
+  }
+}

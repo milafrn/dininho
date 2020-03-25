@@ -136,7 +136,7 @@ table {
   position: relative;
   background: linear-gradient(180.22deg, #7e5002 20.16%, #e69405 36.19%, #fad121 98.57%);
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -228,6 +228,30 @@ table {
 }
 .wrapper-playgame:active > .button-playgame {
   font-size: 18px;
+}
+
+.wrapper-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px;
+}
+.wrapper-list > .title {
+  font-family: "Bungee", cursive;
+  font-size: 26px;
+  text-align: center;
+  color: #73263d;
+  margin-bottom: 22px;
+}
+.wrapper-list .list {
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  color: #3d1132;
+}
+.wrapper-list .list > .item {
+  padding: 5px 0;
 }
 
 /*# sourceMappingURL=styles.css.map */

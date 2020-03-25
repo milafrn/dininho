@@ -1,0 +1,23 @@
+.wrapper-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px;
+  > .title {
+    font-family: $font-primary;
+    font-size: 26px;
+    text-align: center;
+    color: $color-secondary;
+    margin-bottom: 22px;
+  }
+  .list {
+    font-family: $font-secondary;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    color: $color-tertiary;
+    > .item {
+      padding: 5px 0;
+    }
+  }
+}

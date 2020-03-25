@@ -7,7 +7,7 @@
     content: "";
     width: 50%;
     margin-left: 10px;
-    border-bottom: 3px solid #fff;
+    border-bottom: 3px solid $color-primary;
     border-radius: 2px;
     transform: translateY(-35%);
   }
@@ -15,7 +15,7 @@
     content: "";
     width: 50%;
     margin-right: 10px;
-    border-bottom: 3px solid #fff;
+    border-bottom: 3px solid $color-primary;
     border-radius: 2px;
     transform: translateY(-35%);
   }

@@ -158,7 +158,9 @@ table {
 
 .wrapper-eggs {
   display: flex;
-  width: 80%;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .wrapper-eggs::after {
   content: "";
@@ -166,7 +168,7 @@ table {
   margin-left: 10px;
   border-bottom: 3px solid #fff;
   border-radius: 2px;
-  transform: translateY(-25%);
+  transform: translateY(-35%);
 }
 .wrapper-eggs::before {
   content: "";
@@ -174,10 +176,7 @@ table {
   margin-right: 10px;
   border-bottom: 3px solid #fff;
   border-radius: 2px;
-  transform: translateY(-25%);
-}
-.wrapper-eggs > .separator-eggs {
-  margin-top: 30px;
+  transform: translateY(-35%);
 }
 
 .tns-nav {

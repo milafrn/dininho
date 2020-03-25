@@ -1,13 +1,15 @@
 .wrapper-eggs {
   display: flex;
-  width: 80%;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
   &::after {
     content: "";
     width: 50%;
     margin-left: 10px;
     border-bottom: 3px solid #fff;
     border-radius: 2px;
-    transform: translateY(-25%);
+    transform: translateY(-35%);
   }
   &::before {
     content: "";
@@ -15,9 +17,6 @@
     margin-right: 10px;
     border-bottom: 3px solid #fff;
     border-radius: 2px;
-    transform: translateY(-25%);
-  }
-  > .separator-eggs {
-    margin-top: 30px;
+    transform: translateY(-35%);
   }
 }

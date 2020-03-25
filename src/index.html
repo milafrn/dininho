@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dininho Landing Page</title>
     <link rel="shortcut icon" href="assets/icons/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css"
+    />
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
@@ -32,9 +36,61 @@
           Vá e seja o herói da Dinolândia.
         </p>
       </article>
+
       <div class="wrapper-eggs">
-        <img class="eggs" src="assets/icons/ovinho.png" alt="Eggs" />
+        <img class="separator-eggs" src="assets/icons/ovinho.png" alt="Eggs" />
       </div>
+
+      <section class="wrapper-carousel">
+        <div class="my-slider">
+          <video
+            class="video-carousel"
+            autoplay
+            muted
+            poster="assets/img/carrousel/dininho-poster.png"
+          >
+            <source src="assets/img/carrousel/treiler_pronto.mp4" />
+          </video>
+          <img src="assets/img/carrousel/especial1.png" alt="" />
+          <img src="assets/img/carrousel/especial2.png" alt="" />
+          <img src="assets/img/carrousel/especial3.png" alt="" />
+          <img src="assets/img/carrousel/ice2.png" alt="" />
+          <img src="assets/img/carrousel/ice3.png" alt="" />
+          <img src="assets/img/carrousel/lava.png" alt="" />
+          <img src="assets/img/carrousel/lava2.png" alt="" />
+          <img src="assets/img/carrousel/lava3.png" alt="" />
+          <img src="assets/img/carrousel/ow_1.png" alt="" />
+          <img src="assets/img/carrousel/toy1.png" alt="" />
+          <img src="assets/img/carrousel/toy2.png" alt="" />
+          <img src="assets/img/carrousel/toy3.png" alt="" />
+          <img src="assets/img/carrousel/toy4.png" alt="" />
+          <img src="assets/img/carrousel/toy5.png" alt="" />
+          <img src="assets/img/carrousel/w3.png" alt="" />
+        </div>
+        <div class="wrapper-playgame">
+          <button class="button-playgame">Jogar</button>
+          <img
+            src="assets/img/botao-1.png"
+            alt="Botao jogar"
+            class="background-playgame"
+          />
+        </div>
+      </section>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script type="module">
+      var slider = tns({
+        container: ".my-slider",
+        nav: false,
+        mouseDrag: "true",
+        swipeAngle: false,
+        controls: false,
+        navPosition: "down",
+        speed: 400,
+        items: 1,
+        slideBy: "page",
+        autoplay: false
+      });
+    </script>
   </body>
 </html>

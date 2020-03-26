@@ -46,22 +46,20 @@
           />
         </div>
 
-        <div class="wrapper-video">
-          <div class="volume"></div>
+        <div class="wrapper-video -outer">
           <video
             src="assets/img/carousel/treiler_pronto.mp4"
             alt="video do game dininho"
             class="video-dininho"
             poster="assets/img/carousel/dininho-poster.png"
           ></video>
-          <div class="video-opacity"></div>
-          <img class="play" src="assets/icons/play.png" alt="play de video" />
         </div>
 
         <section class="wrapper-carousel">
           <div class="my-slider">
             <video
               class="video-carousel"
+              controls
               poster="assets/img/carousel/dininho-poster.png"
             >
               <source src="assets/img/carousel/treiler_pronto.mp4" />
@@ -194,6 +192,8 @@
         mouseDrag: "true",
         swipeAngle: false,
         controls: false,
+        gutter: 10,
+        edgePadding: 30,
         navPosition: "down",
         speed: 400,
         items: 1,
@@ -201,6 +201,5 @@
         autoplay: false
       });
     </script>
-    <script src="js/video-dininho/video-dininho.js"></script>
   </body>
 </html>

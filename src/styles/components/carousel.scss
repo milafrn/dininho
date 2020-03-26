@@ -1,5 +1,8 @@
 .wrapper-carousel {
   display: none;
+  @media (min-width: 900px) {
+    display: inline-block;
+  }
 }
 
 .tns-nav {

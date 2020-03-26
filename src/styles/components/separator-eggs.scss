@@ -1,6 +1,6 @@
 .wrapper-eggs {
   display: flex;
-  width: 100%;
+  width: 200%;
   margin-top: 15px;
   margin-bottom: 15px;
   &::after {
@@ -21,5 +21,8 @@
   }
   &.-modify {
     margin: 0;
+  }
+  @media (min-width: 768px) {
+    width: 95%;
   }
 }

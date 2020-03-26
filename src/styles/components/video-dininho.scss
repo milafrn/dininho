@@ -1,0 +1,40 @@
+.wrapper-video {
+  width: 100%;
+  display: flex;
+  position: relative;
+  > .video-dininho {
+    width: 100%;
+  }
+  > .video-opacity {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    &.-active {
+      display: none;
+    }
+  }
+  > .play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    transform: translate(-50%, -50%);
+    &.-active {
+      display: none;
+    }
+  }
+  .volume {
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    background-size: cover;
+    background-image: url("../assets/icons/volume-up.svg");
+    &.-off {
+      background-image: url("../assets/icons/volume-off.svg");
+    }
+  }
+}
